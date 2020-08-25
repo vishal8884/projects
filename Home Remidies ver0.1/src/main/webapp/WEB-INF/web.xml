@@ -1,0 +1,55 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminUserAndPassController</servlet-name>
+  	<display-name>AdminUserAndPassController</display-name>
+  	
+  	<description></description>
+  	<servlet-class>com.telusko.web.AdminUserAndPassController</servlet-class>
+  </servlet>
+  <!--///////////////////////////servlet splitting///////////////////////////// -->
+  <servlet>
+  	<servlet-name>ClientUserAndPassController</servlet-name>
+  	<display-name>ClientUserAndPassController</display-name>
+  	
+  	<description></description>
+  	<servlet-class>com.telusko.web.ClientUserAndPassController</servlet-class>
+  </servlet>
+  
+  <!--///////////////////////////servlet splitting///////////////////////////// -->
+  
+  <servlet>
+  	<servlet-name>ClientNewUserController</servlet-name>
+  	<display-name>ClientNewUserController</display-name>
+  	
+  	<description></description>
+  	<servlet-class>com.telusko.web.ClientNewUserController</servlet-class>
+  </servlet>
+  
+  
+  <!--///////////////////////////splitting///////////////////////////// -->
+  <!--///////////////////////////splitting///////////////////////////// -->
+  <!--///////////////////////////splitting///////////////////////////// -->
+  <!--///////////////////////////splitting///////////////////////////// -->
+  
+  <servlet-mapping>
+  	<servlet-name>AdminUserAndPassController</servlet-name>
+  	<url-pattern>/getadmin</url-pattern>
+  </servlet-mapping>
+ <!--///////////////////////////servletmapping splitting///////////////////////////// --> 
+  <servlet-mapping>
+  	<servlet-name>ClientUserAndPassController</servlet-name>
+  	<url-pattern>/getuser</url-pattern>
+  </servlet-mapping>
+   <!--///////////////////////////servletmapping splitting///////////////////////////// --> 
+  <servlet-mapping>
+  	<servlet-name>ClientNewUserController</servlet-name>
+  	<url-pattern>/createnewuser</url-pattern>
+  </servlet-mapping>
+  
+ 
+</web-app>
