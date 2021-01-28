@@ -1,0 +1,8 @@
+com\vishal\flightCheckin\integaration\dto\ReservationUpdateRequest.class
+com\vishal\flightCheckin\controller\CheckinController.class
+com\vishal\flightCheckin\FlightcheckinApplication.class
+com\vishal\flightCheckin\integaration\dto\Flight.class
+com\vishal\flightCheckin\integaration\dto\Passenger.class
+com\vishal\flightCheckin\integaration\dto\Reservation.class
+com\vishal\flightCheckin\integaration\ReservationRestClient.class
+com\vishal\flightCheckin\integaration\ReservationRestClientImpl.class
